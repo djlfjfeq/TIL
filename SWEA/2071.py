@@ -1,7 +1,8 @@
 result = []
+cnt = 1
 
 i = int(input())
-cnt = 1
+
 for n in range(0, i):
         a,b,c,d,e,f,g,h,i,j=map(int,(input().split(' ')))
         temp = [a,b,c,d,e,f,g,h,i,j] 
